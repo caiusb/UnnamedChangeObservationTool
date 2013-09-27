@@ -1,4 +1,4 @@
-package edu.oregonstate.ocut;
+package edu.oregonstate.ucot;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;

@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: OCUT
-Bundle-SymbolicName: edu.oregonstate.ocut
+Bundle-SymbolicName: edu.oregonstate.ucot
 Bundle-Version: 0.0.0.qualifier
-Bundle-Activator: edu.oregonstate.ocut.Activator
+Bundle-Activator: edu.oregonstate.ucot.Activator
 Bundle-Vendor: OregonState University
 Require-Bundle: org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
