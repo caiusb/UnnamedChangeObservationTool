@@ -28,10 +28,10 @@ public class JDTUIStartupListener implements StartupListener {
 		if (doesMonitorUIExist()) {
 			Debugger.debug("STARTED");
 			FileBufferListener.register();
-			DocumentAdapterListener.register();
+			//DocumentAdapterListener.register();
 //			SelectionListener.register();
 //			PartListener.register();
-			ResourceListener.register();
+			//ResourceListener.register();
 //			CVSResourceChangeListener.register();
 			OperationHistoryListener.register();
 //			RefactoringExecutionListener.register();
@@ -42,7 +42,7 @@ public class JDTUIStartupListener implements StartupListener {
 	}
 
 	private static boolean doesMonitorUIExist() {
-		return Platform.getBundle("edu.illinois.codingspectator.monitor.ui") != null;
+		return true;// Platform.getBundle("edu.illinois.codingspectator.monitor.ui") != null;
 	}
 
 }

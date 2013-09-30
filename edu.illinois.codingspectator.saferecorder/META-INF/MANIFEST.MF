@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: edu.illinois.codingspectator.saferecorder
+Bundle-SymbolicName: edu.illinois.codingspectator.saferecorder;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: edu.illinois.codingspectator.saferecorder.SafeRecorderPlugin
+Bundle-Vendor: University of Illinois
+Require-Bundle: org.eclipse.core.runtime,
+ edu.illinois.codingtracker.helpers,
+ edu.illinois.codingspectator.monitor.core,
+ edu.illinois.codingspectator.data
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Export-Package: edu.illinois.codingspectator.saferecorder
