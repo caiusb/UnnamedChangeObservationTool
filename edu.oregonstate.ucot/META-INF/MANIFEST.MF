@@ -5,6 +5,7 @@ Bundle-SymbolicName: edu.oregonstate.ucot;singleton:=true
 Bundle-Version: 0.0.0.qualifier
 Bundle-Activator: edu.oregonstate.ucot.Activator
 Bundle-Vendor: OregonState University
-Require-Bundle: org.eclipse.core.runtime
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui;bundle-version="3.105.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ActivationPolicy: lazy
