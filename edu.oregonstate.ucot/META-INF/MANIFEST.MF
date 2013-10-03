@@ -6,6 +6,8 @@ Bundle-Version: 0.0.0.qualifier
 Bundle-Activator: edu.oregonstate.ucot.Activator
 Bundle-Vendor: OregonState University
 Require-Bundle: org.eclipse.core.runtime,
- org.eclipse.ui;bundle-version="3.105.0"
+ org.eclipse.ui;bundle-version="3.105.0",
+ org.eclipse.core.filebuffers;bundle-version="3.5.300",
+ org.eclipse.jface.text;bundle-version="3.8.101"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ActivationPolicy: lazy
