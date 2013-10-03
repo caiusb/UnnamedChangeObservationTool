@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Tests
+Bundle-SymbolicName: edu.oregonstate.ucot.tests
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: edu.oregonstate.ucot;bundle-version="0.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
