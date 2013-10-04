@@ -24,7 +24,13 @@ import org.eclipse.ui.progress.UIJob;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 
+import edu.illinois.codingtracker.helpers.Debugger;
+import edu.illinois.codingtracker.listeners.FileBufferListener;
+import edu.illinois.codingtracker.listeners.JUnitListener;
+import edu.illinois.codingtracker.listeners.LaunchListener;
+import edu.illinois.codingtracker.listeners.OperationHistoryListener;
 import edu.illinois.codingtracker.listeners.document.FileDocumentListener;
+import edu.illinois.codingtracker.operations.starts.StartedEclipseOperation;
 
 /**
  * 
@@ -50,6 +56,12 @@ public class Activator implements BundleActivator {
 			
 			@Override
 			public IStatus runInUIThread(IProgressMonitor monitor) {
+				Debugger.debug("STARTED");
+	            FileBufferListener.register();
+	            OperationHistoryListener.register();
+	            JUnitListener.register();
+	            LaunchListener.register();
+	            TextRecorder.record(new StartedEclipseOperation());
 				regiserListenersForOpenEditors();
 				return Status.OK_STATUS;
 			}
