@@ -14,7 +14,7 @@ Require-Bundle: org.eclipse.jdt.core,
  org.eclipse.team.core,
  org.eclipse.core.filesystem,
  org.tmatesoft.svn.eclipse,
- org.eclipse.jdt.ui;bundle-version="3.9.0"
+ org.eclipse.jdt.ui;bundle-version="3.9.1"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-Vendor: University of Ilinois
 Bundle-ActivationPolicy: lazy
